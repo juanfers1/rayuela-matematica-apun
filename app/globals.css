@@ -297,6 +297,13 @@ input:focus-visible {
 .cell-1 { grid-column: 2 / 4; grid-row: 6; }
 .cell-0 { grid-column: 2 / 4; grid-row: 7; border-radius: 50% 50% 8px 8px; }
 
+.cell-8 .cell-index,
+.cell-0 .cell-index {
+  top: 50%;
+  left: 14%;
+  transform: translateY(-50%);
+}
+
 .board-instruction {
   display: flex;
   align-items: center;
